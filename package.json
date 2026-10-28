@@ -1,0 +1,18 @@
+{
+  "name": "biodata-soda",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Biodata M. Baihaqi Alawi dengan stage 3D Bintang Zero",
+  "scripts": {
+    "audit": "node tests/audit.js",
+    "audit:live": "node tests/audit.js --live"
+  },
+  "devDependencies": {
+    "@google/model-viewer": "^3.5.0",
+    "playwright": "^1.47.0",
+    "three": "0.160.0"
+  },
+  "comments": {
+    "three": "Hanya dipakai untuk file decoder Draco saat tes offline (mock CDN)."
+  }
+}
